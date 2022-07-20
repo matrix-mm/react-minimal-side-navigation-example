@@ -1,0 +1,84 @@
+
+.contents1{
+    width: 100%; min-height: 100vh;
+    display: flex; align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.instruction h1{
+    width: 100%; min-height: 25vh;
+    display: flex;
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: top;
+}
+.instruction h4{
+    font-size: 40px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+#button{
+    width: 200px; height: 50px;
+    font-size: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: white;
+    transition: 0.1s linear;
+    border-radius: 1000px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+}
+#button:hover{
+    background-color: transparent;
+    letter-spacing: 3px;
+    transform: scale(1.1);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: 0.1s linear;
+}
+a:hover{
+    color: rgba(82, 79, 79, 0.8);
+}
+li{
+    padding: 10px 0;
+    list-style: none;
+}
+.m{
+    width: 1px; height: 20px;
+    background-color: white;
+}
+.m1{
+    transform: rotate(45deg) translateX(0.5px);
+}
+.m2{
+    transform: rotate(-45deg);
+}
+#cross{
+    width: 30px; height: 30px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5); border-radius: 50%;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 40px; right: 40px;
+    transition: 0.1s linear;
+}
+#cross:hover{
+    background-color: rgba(255,255,255,0.2);
+}
